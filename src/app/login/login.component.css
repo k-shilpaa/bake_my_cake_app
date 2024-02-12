@@ -1,0 +1,55 @@
+/* Add this CSS code to your styles.css (or styles.scss) file */
+.background{
+    background-image: url("/assets/images/back-1.png");
+    background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.form-container {
+    max-width: 300px;
+    width: 400px;
+    position: fixed;
+    top: 100px;
+    left: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.alert {
+    color: #f44336;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+button.mat-primary{
+    background-color: #379cfb;
+}
+
+mat-error {
+    color: #f44336;
+    font-size: 14px;
+    margin-top: 10px;
+}

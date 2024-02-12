@@ -1,0 +1,25 @@
+<app-nav-bar> </app-nav-bar>
+<div *ngIf="orders" class="order-container">
+  <h2>My Orders</h2>
+  <div class="order-items">
+    <mat-card *ngFor="let order of orders" class="order-item">
+      <div class="order-item-details">
+        <div class="order-data">
+          <strong>Order Id:</strong>{{ order.id }} <br />
+          <strong>Total Items:</strong>{{ order.cart.items.length }} <br />
+          <strong>Total Paid:</strong> {{ order.cart.subtotal }} <br />
+        </div>
+        <div class="order-buttons">
+            <button [routerLink]="['/order', order.id]">View Details</button>
+          </div>
+          
+          <!-- <div class="order-buttons">
+            <button (click)="approveOrder()">Approve Order</button>
+          </div>
+          <div class="order-buttons">
+            <button (click)="rejectOrder()">Reject Order</button>
+          </div> -->
+      </div>
+    </mat-card>
+  </div>
+</div>

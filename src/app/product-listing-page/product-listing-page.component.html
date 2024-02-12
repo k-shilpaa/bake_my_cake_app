@@ -1,0 +1,5 @@
+<app-nav-bar> </app-nav-bar>
+<app-search (searchEvent)="onSearch($event)"></app-search>
+<app-filter [categories]="categories" [selectedCategories]="selectedCategories" (categoryEvent)="filterByCategory($event)"> </app-filter>
+<app-product-card *ngFor="let product of products" [product]="product"></app-product-card>
+<app-footer></app-footer>

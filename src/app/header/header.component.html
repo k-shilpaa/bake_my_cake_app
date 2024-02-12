@@ -1,0 +1,28 @@
+<mat-toolbar color="primary" id="header">
+  <!-- <p *ngIf="loginStatus.isLoggedIn">hi  </p> -->
+  <span>Bake Your Cake</span>
+ 
+  <span class="example-spacer"></span>
+
+  <button mat-icon-button routerLink="">
+    <mat-icon>
+      <a  style="color: white"> home </a>
+    </mat-icon>
+  </button>
+  <button mat-icon-button *ngIf="loginStatus.isLoggedIn" routerLink="/cart" >
+    <mat-icon matBadge="{{cartLength}}"  matBadgeColor="accent">shopping_cart</mat-icon>
+  </button>
+
+  <button mat-icon-button *ngIf="loginStatus.isLoggedIn" routerLink="/order-history">
+    <mat-icon routerLink="/register-form" id="person_add" style="color: white">
+      account_circle
+    </mat-icon>
+  </button>
+
+  <button mat-icon-button *ngIf="!loginStatus.isLoggedIn" routerLink="/login">
+    <mat-icon> login </mat-icon>
+  </button>
+  <button mat-icon-button *ngIf="loginStatus.isLoggedIn" (click)="userLogout()">
+    <mat-icon> logout </mat-icon>
+  </button>
+</mat-toolbar>

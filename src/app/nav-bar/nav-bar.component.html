@@ -1,0 +1,31 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+  [attr.role]=" 'navigation'"
+  [mode]=" 'side'"
+  [opened]="false">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="">Home</a>
+      <a mat-list-item href="order-history">Order history</a>
+      <a mat-list-item href="cart">cart</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        >
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <!-- <span>bake-my-cake</span> -->
+      <app-header></app-header>
+    </mat-toolbar>
+
+   
+
+    <!-- <app-product-listing-page></app-product-listing-page> -->
+  </mat-sidenav-content>
+</mat-sidenav-container>

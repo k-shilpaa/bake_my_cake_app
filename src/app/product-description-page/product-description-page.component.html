@@ -1,0 +1,31 @@
+<app-nav-bar> </app-nav-bar>
+<div class="product-container">
+    <mat-card>
+        <img mat-card-image id="picture" src="../../assets/images/{{product.image}}.jpg">
+    </mat-card>
+    <mat-card-content>
+        <h2>{{product.name}}</h2>
+        <p>{{product.description}}</p>
+        <p class="price-container">{{totalPrice |currency:"&#8377;"}}</p>
+        
+    </mat-card-content>
+    <div class="quantity-container">
+        <button class="quantity-button" (click)="add()">
+            <mat-icon >add</mat-icon>
+        </button>
+        
+        <input type="number" class="quantity-input" readonly [(ngModel)]="quantity" min="1">
+        <button class="quantity-button" (click)="subtract()">
+            <mat-icon >minimize</mat-icon>
+        </button>
+        
+    </div>
+    <div *ngIf="!loginStatus.isLoggedIn">
+        <button class="add-to-cart-button"   routerLink="/login">
+            <mat-icon>add_shopping_cart</mat-icon>
+        </button>
+    </div>
+    <button *ngIf="loginStatus.isLoggedIn" class="add-to-cart-button" (click)="addItemToCart()">
+        <mat-icon>add_shopping_cart</mat-icon>
+    </button>
+</div>

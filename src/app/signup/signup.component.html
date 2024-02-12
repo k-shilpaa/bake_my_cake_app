@@ -1,0 +1,42 @@
+<app-nav-bar></app-nav-bar>
+<div class="background">
+<form [formGroup]="signupForm" (ngSubmit)="onSubmit(signupForm)">
+        <div>
+        <mat-form-field class="full-width" appearance="fill">
+            <input matInput formControlName="firstName" placeholder="First Name">
+            <mat-error *ngIf="firstName?.errors?.['required']">First Name is required</mat-error>
+            <mat-error *ngIf="firstName?.errors?.['minlength']">First Name should be at least 4 characters long</mat-error>
+            <mat-error *ngIf="firstName?.errors?.['pattern']">Name can not be a number</mat-error>
+          </mat-form-field>
+
+          <mat-form-field class="first-row" appearance="fill">
+            <input matInput formControlName="lastName" placeholder="LastName">
+          </mat-form-field>
+    </div>
+
+   <div class="second-row">
+        <mat-form-field class="full-width" appearance="fill">
+          <input matInput formControlName="email" placeholder="Email">
+          <mat-error *ngIf="email?.errors?.['required']">Email is required</mat-error>
+          <mat-error *ngIf="email?.errors?.['invalidGuestEmails']">Invalid email address</mat-error>
+        </mat-form-field>
+        </div>
+    
+        <mat-form-field class="full-width" appearance="fill">
+            <input matInput type="password" formControlName="password" placeholder="Password">
+            <mat-error *ngIf="password?.errors?.['required']">Password is required</mat-error>
+            <mat-error *ngIf="password?.errors?.['pattern']">Password should have at least 8 characters with one symbol, one upper-case letter, one lower-case letter, and one number</mat-error>
+          </mat-form-field>
+
+          <mat-form-field class="full-width" appearance="fill">
+            <input matInput type="password" formControlName="confirmPassword" placeholder="Confirm Password">
+            <mat-error *ngIf="confirmPassword?.errors?.['required']">Confirm Password is required</mat-error>
+            <mat-error *ngIf="confirmPassword?.errors?.['passwordsNotMatch']">Passwords and Confirm Password do not match</mat-error>
+          </mat-form-field>
+
+         
+    <button type="submit" [disabled]="signupForm.invalid" >Sign Up</button>
+    <a routerLink="/login">Already a user?click here to login</a>
+
+</form>
+</div>

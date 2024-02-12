@@ -1,0 +1,6 @@
+<section class="example-section">
+    <mat-chip-listbox selectable multiple>
+        <mat-chip-option selected   *ngFor="let category of categories" (click)="toggleCategory( category)" >{{ category.name }}</mat-chip-option>
+    </mat-chip-listbox>
+   
+</section>

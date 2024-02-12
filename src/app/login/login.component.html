@@ -1,0 +1,29 @@
+<div class="background">
+<form id="order-request" class="form-container" (ngSubmit)="onSubmit(loginForm)" #loginForm="ngForm">
+    <h2>Login Details</h2>
+    
+    <div class="form-field">
+        <mat-form-field appearance="fill">
+            <input matInput type="email" required placeholder="Email" name="name" [(ngModel)]="userLogin.email"  #name="ngModel"  [email]="true">
+            <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert">
+                <mat-error *ngIf="name.errors?.['required']">email required</mat-error>
+                <mat-error *ngIf="name.errors?.['email']">valid email</mat-error>
+            </div>
+        </mat-form-field> 
+    </div>
+    <div class="form-field">
+        <mat-form-field appearance="fill">
+            <input matInput type="password" minlength="5" required placeholder="Password" name="password" [(ngModel)]="userLogin.password" #password="ngModel">
+            <div *ngIf="password.invalid && (password.dirty || password.touched)" class="alert">
+                <mat-error *ngIf="password.errors?.['required']">password Required</mat-error>
+                <mat-error *ngIf="password.errors?.['minlength']">minimum length 5</mat-error>
+            </div>
+        </mat-form-field>
+    </div>
+    <mat-error *ngIf="loginerror!=''">
+       {{ loginerror }}
+    </mat-error>
+    <button mat-flat-button color="primary">login</button>
+    <button mat-flat-button color="primary" routerLink="/signup">signup</button>
+</form>
+</div>

@@ -1,0 +1,28 @@
+<app-nav-bar></app-nav-bar>
+<div *ngIf="cart" class="cart-container">
+    <h2>My Cart</h2>
+    <div class="cart-items">
+      <mat-card *ngFor="let item of cart.items" class="cart-item">
+        <div class="cart-item-details">
+          
+          <img mat-card-image id="picture" src="../../assets/images/{{item.image}}.jpg">
+          <div class="cart-data">
+            <strong>Product Name:</strong>{{ item.name }}  <br>
+            <strong>Quantity:</strong> {{ item.quantity }} <br>
+            <strong>Price:</strong> {{ item.price }} <br>
+          </div>
+          <button id="deletebtn" (click)="deleteItem(item)"><mat-icon>delete</mat-icon> </button>
+          
+        </div>
+        <hr>
+      </mat-card>
+    </div>
+    <div class="cart-total">
+      <strong>Total: {{ cart.subtotal }}</strong>
+    </div>
+    <div class="cart-buttons">
+      <button routerLink="/shipping">Proceed to Checkout</button>
+      <button routerLink="">Continue Shopping</button>
+    </div>
+  </div>
+  

@@ -1,0 +1,960 @@
+{
+  "categories": [
+    {
+      "id": "Cupcakes",
+      "name": "Cupcakes"
+    },
+    {
+      "id": "Brownies",
+      "name": "Brownies"
+    },
+    {
+      "id": "Cookies",
+      "name": "Cookies"
+    },
+    {
+      "id": "Cakes",
+      "name": "Cakes"
+    },
+    {
+      "id": "Chocolates",
+      "name": "Chocolates"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Berries Summer Cupcakes",
+      "rating": 3,
+      "price": 550,
+      "category": "Cupcakes",
+      "image": "Berries Summer Cupcakes",
+      "description": "Indulge in the vibrant flavors of summer with our Berries Summer Cupcakes. Delightfully moist cupcakes infused with a medley of fresh berries, topped with a luscious berry-infused frosting, capturing the essence of the season in every bite."
+    },
+    {
+      "id": "2",
+      "name": "Brownies Different Flavor",
+      "rating": 4,
+      "price": 250,
+      "category": "Brownies",
+      "image": "Brownies Different Flavor",
+      "description": "A delectable assortment of uniquely flavored brownies, each bite bursting with indulgence and variety."
+    },
+    {
+      "id": "3",
+      "name": "Butter cookies",
+      "rating": 3,
+      "price": 550,
+      "category": "Cookies",
+      "image": "Butter Cookies",
+      "description": "A melt-in-the-mouth delight, our butter cookies are baked to perfection, offering a heavenly blend of rich buttery goodness in every bite."
+    },
+    {
+      "id": "4",
+      "name": "Cherry Jelly Cheesecake",
+      "rating": 3,
+      "price": 550,
+      "category": "Cakes",
+      "image": "Cherry Jelly Cheesecake",
+      "description": "A heavenly fusion of velvety cheesecake and vibrant cherry jelly"
+    },
+    {
+      "id": "5",
+      "name": "Chocolate Blueberries Cake",
+      "rating": 2,
+      "price": 150,
+      "category": "Cakes",
+      "image": "Chocolate Blueberries Cake",
+      "description": "A decadent blend of rich chocolate and plump blueberries"
+    },
+    {
+      "id": "6",
+      "name": "Chocolate Bonbons",
+      "rating": 2,
+      "price": 150,
+      "category": "Chocolates",
+      "image": "Chocolate Bonbons",
+      "description": "Irresistibly smooth, these bite-sized delights offer a heavenly fusion of velvety chocolate"
+    },
+    {
+      "id": "7",
+      "name": "Chocolate Cookies",
+      "rating": 2,
+      "price": 150,
+      "category": "Cookies",
+      "image": "Chocolate Cookies",
+      "description": "A blissful union of rich cocoa and buttery goodness, these cookies melt in your mouth"
+    },
+    {
+      "id": "8",
+      "name": "Chocolate Cupcake",
+      "rating": 5,
+      "price": 50,
+      "category": "Cupcakes",
+      "image": "Chocolate Cupcake",
+      "description": "Decadence in every bite, our moist chocolate cupcake is a heavenly delight topped with velvety chocolate frosting"
+    },
+    {
+      "id": "9",
+      "name": "Chocolate Summer Berries",
+      "rating": 5,
+      "price": 350,
+      "category": "Cakes",
+      "image": "Chocolate Summer Berries",
+      "description": "Indulge in the best of both worlds with our luscious blend of rich chocolate and ripe summer berries"
+    },
+    {
+      "id": "10",
+      "name": "Classic Cheesecake",
+      "rating": 5,
+      "price": 150,
+      "category": "Cakes",
+      "image": "Classic Cheesecake",
+      "description": " Timeless elegance meets indulgent flavor in our classic cheesecake"
+    },
+    {
+      "id": "11",
+      "name": "Cookies Cream Cake",
+      "rating": 4,
+      "price": 180,
+      "category": "Cakes",
+      "image": "Cookies Cream Cake",
+      "description": "A delightful harmony of moist cake layers infused with crunchy cookie bits"
+    },
+    {
+      "id": "12",
+      "name": "Easter Cupcakes",
+      "rating": 5,
+      "price": 150,
+      "category": "Cupcakes",
+      "image": "Easter Cupcakes",
+      "description": " Sprinkled with joy and topped with colorful delights, our Easter cupcakes bring a touch of sweetness to your celebrations"
+    },
+    {
+      "id": "13",
+      "name": "Fruit Cake",
+      "rating": 5,
+      "price": 150,
+      "category": "Cakes",
+      "image": "Fruit Cake",
+      "description": "A time-honored dessert filled with a delightful medley of candied fruits and nuts, soaked in spirits"
+    },
+    {
+      "id": "14",
+      "name": "Isometric Chocolate brownies",
+      "rating": 5,
+      "price": 150,
+      "category": "Brownies",
+      "image": "Isometric chocolate brownies",
+      "description": "A geometric twist to the classic treat, these brownies combine fudgy richness with artistic precision"
+    },
+    {
+      "id": "15",
+      "name": "Monster Theme Cake",
+      "rating": 5,
+      "price": 750,
+      "category": "Cakes",
+      "image": "Monster Theme Cake",
+      "description": " A whimsical creation featuring vibrant colors, playful designs, and delightful flavors, perfect for birthdays and events"
+    },
+    {
+      "id": "16",
+      "name": "Muffin Devil Horns",
+      "rating": 4,
+      "price": 650,
+      "category": "Cupcakes",
+      "image": "Muffin Devil Horns",
+      "description": " Irresistibly sinful muffins crowned with devilishly delightful horns, offering a playful twist to your taste buds and a touch of mischief to your snack time."
+    },
+    {
+      "id": "17",
+      "name": "Muffin Ghost",
+      "rating": 5,
+      "price": 150,
+      "category": "Cupcakes",
+      "image": "Muffin Ghost",
+      "description": " Cute and spooky, these muffins are adorned with ghostly decorations"
+    },
+    {
+      "id": "18",
+      "name": "Pumpkin Spice Cupcakes",
+      "rating": 5,
+      "price": 150,
+      "category": "Cupcakes",
+      "image": "Pumpkin Spice Cupcakes",
+      "description": "A delightful blend of warm spices and pumpkin goodness, these cupcakes offer a cozy autumnal flavor, topped with a creamy frosting that captures the essence of fall in every bite."
+    }
+  ],
+  "orders": [
+    {
+      "email": "nani050899@gmail.com",
+      "id": "1",
+      "shippingDetails": {
+        "fullName": "mose",
+        "address": "hilton",
+        "city": "london",
+        "state": "uk",
+        "pincode": 123551,
+        "phoneNumber": 225895633
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "2",
+            "name": "Brownies Different Flavor",
+            "quantity": 3,
+            "price": 750,
+            "image": "Brownies Different Flavor"
+          },
+          {
+            "id": "3",
+            "name": "Butter cookies",
+            "quantity": 1,
+            "price": 550,
+            "image": "Butter Cookies"
+          },
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 3,
+            "price": 1650,
+            "image": "Cherry Jelly Cheesecake"
+          },
+          {
+            "id": "1",
+            "name": "Berries Summer Cupcakes",
+            "quantity": 2,
+            "price": 1100,
+            "image": "Berries Summer Cupcakes"
+          },
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 2,
+            "price": 1100,
+            "image": "Cherry Jelly Cheesecake"
+          }
+        ],
+        "subtotal": 5150
+      }
+    },
+    {
+      "id": "ZTGZ0FC",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "2",
+            "name": "Brownies Different Flavor",
+            "quantity": 3,
+            "price": 750,
+            "image": "Brownies Different Flavor"
+          },
+          {
+            "id": "3",
+            "name": "Butter cookies",
+            "quantity": 1,
+            "price": 550,
+            "image": "Butter Cookies"
+          },
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 3,
+            "price": 1650,
+            "image": "Cherry Jelly Cheesecake"
+          },
+          {
+            "id": "1",
+            "name": "Berries Summer Cupcakes",
+            "quantity": 2,
+            "price": 1100,
+            "image": "Berries Summer Cupcakes"
+          },
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 2,
+            "price": 1100,
+            "image": "Cherry Jelly Cheesecake"
+          }
+        ],
+        "subtotal": 5150
+      }
+    },
+    {
+      "id": "3G06QJ8",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "Nandu addressu",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "2",
+            "name": "Brownies Different Flavor",
+            "quantity": 3,
+            "price": 750,
+            "image": "Brownies Different Flavor"
+          },
+          {
+            "id": "3",
+            "name": "Butter cookies",
+            "quantity": 1,
+            "price": 550,
+            "image": "Butter Cookies"
+          },
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 3,
+            "price": 1650,
+            "image": "Cherry Jelly Cheesecake"
+          },
+          {
+            "id": "1",
+            "name": "Berries Summer Cupcakes",
+            "quantity": 2,
+            "price": 1100,
+            "image": "Berries Summer Cupcakes"
+          },
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 2,
+            "price": 1100,
+            "image": "Cherry Jelly Cheesecake"
+          }
+        ],
+        "subtotal": 5150
+      }
+    },
+    {
+      "id": "JZEKMWV",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 2,
+            "price": 1100,
+            "image": "Cherry Jelly Cheesecake"
+          },
+          {
+            "id": "1",
+            "name": "Berries Summer Cupcakes",
+            "quantity": 1,
+            "price": 550,
+            "image": "Berries Summer Cupcakes"
+          }
+        ],
+        "subtotal": 1650
+      }
+    },
+    {
+      "id": "JK8PFWR",
+      "email": "shilpasreek11@gmail.com",
+      "shippingDetails": {
+        "fullName": "shilpa sree",
+        "address": "address1",
+        "city": "blr",
+        "state": "ktk",
+        "pincode": "560000",
+        "phoneNumber": "098765432102"
+      },
+      "cart": {
+        "id": "shilpasreek11@gmail.com",
+        "items": [
+          {
+            "id": "9",
+            "name": "Chocolate Summer Berries",
+            "quantity": 1,
+            "price": 350,
+            "image": "Chocolate Summer Berries"
+          },
+          {
+            "id": "8",
+            "name": "Chocolate Cupcake",
+            "quantity": 1,
+            "price": 50,
+            "image": "Chocolate Cupcake"
+          }
+        ],
+        "subtotal": 400
+      }
+    },
+    {
+      "id": "F4WAR8Y",
+      "email": "shilpasreek11@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "shilpasreek11@gmail.com",
+        "items": [
+          {
+            "id": "6",
+            "name": "Chocolate Bonbons",
+            "quantity": 2,
+            "price": 300,
+            "image": "Chocolate Bonbons"
+          },
+          {
+            "id": "15",
+            "name": "Monster Theme Cake",
+            "quantity": 1,
+            "price": 750,
+            "image": "Monster Theme Cake"
+          }
+        ],
+        "subtotal": 1050
+      }
+    },
+    {
+      "id": "F52VJVP",
+      "email": "shilpasreek11@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "shilpasreek11@gmail.com",
+        "items": [
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 1,
+            "price": 550,
+            "image": "Cherry Jelly Cheesecake"
+          },
+          {
+            "id": "2",
+            "name": "Brownies Different Flavor",
+            "quantity": 1,
+            "price": 250,
+            "image": "Brownies Different Flavor"
+          }
+        ],
+        "subtotal": 800
+      }
+    },
+    {
+      "id": "QAOEGLZ",
+      "email": "finaltest@gmail.com",
+      "shippingDetails": {
+        "fullName": "final",
+        "address": "current",
+        "city": "now",
+        "state": "us",
+        "pincode": "552252",
+        "phoneNumber": "8585855562"
+      },
+      "cart": {
+        "id": "finaltest@gmail.com",
+        "items": [
+          {
+            "id": "8",
+            "name": "Chocolate Cupcake",
+            "quantity": 1,
+            "price": 50,
+            "image": "Chocolate Cupcake"
+          }
+        ],
+        "subtotal": 50
+      }
+    },
+    {
+      "id": "R6KQ73X",
+      "email": "finaltest@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "finaltest@gmail.com",
+        "items": [
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 1,
+            "price": 550,
+            "image": "Cherry Jelly Cheesecake"
+          },
+          {
+            "id": "7",
+            "name": "Chocolate Cookies",
+            "quantity": 1,
+            "price": 150,
+            "image": "Chocolate Cookies"
+          }
+        ],
+        "subtotal": 700
+      }
+    },
+    {
+      "id": "Y7TNY1R",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "",
+        "address": "",
+        "city": "",
+        "state": "",
+        "pincode": "",
+        "phoneNumber": ""
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 1,
+            "price": 550,
+            "image": "Cherry Jelly Cheesecake"
+          }
+        ],
+        "subtotal": 550
+      }
+    },
+    {
+      "id": "TVLXHIL",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "2",
+            "name": "Brownies Different Flavor",
+            "quantity": 3,
+            "price": 750,
+            "image": "Brownies Different Flavor"
+          },
+          {
+            "id": "10",
+            "name": "Classic Cheesecake",
+            "quantity": 2,
+            "price": 300,
+            "image": "Classic Cheesecake"
+          }
+        ],
+        "subtotal": 1050
+      }
+    },
+    {
+      "id": "F1P7HGV",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "pincode": "",
+        "phoneNumber": ""
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "3",
+            "name": "Butter cookies",
+            "quantity": 2,
+            "price": 1100,
+            "image": "Butter Cookies"
+          },
+          {
+            "id": "6",
+            "name": "Chocolate Bonbons",
+            "quantity": 1,
+            "price": 150,
+            "image": "Chocolate Bonbons"
+          }
+        ],
+        "subtotal": 1250
+      }
+    },
+    {
+      "id": "PUCYV5U",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "",
+        "address": "jp nagar",
+        "city": "bnglore",
+        "state": "karnataka",
+        "pincode": "560062",
+        "phoneNumber": "9515037470"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "4",
+            "name": "Cherry Jelly Cheesecake",
+            "quantity": 2,
+            "price": 1100,
+            "image": "Cherry Jelly Cheesecake"
+          }
+        ],
+        "subtotal": 1100
+      }
+    },
+    {
+      "id": "BQJ22WF",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "ktk",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "3",
+            "name": "Butter cookies",
+            "quantity": 1,
+            "price": 550,
+            "image": "Butter Cookies"
+          }
+        ],
+        "subtotal": 550
+      }
+    },
+    {
+      "id": "OICU2TT",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "kkk",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "3",
+            "name": "Butter cookies",
+            "quantity": 1,
+            "price": 550,
+            "image": "Butter Cookies"
+          }
+        ],
+        "subtotal": 550
+      }
+    },
+    {
+      "id": "S2XJELW",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "ejienddm",
+        "city": "Bangalore",
+        "state": "hhh",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "6",
+            "name": "Chocolate Bonbons",
+            "quantity": 1,
+            "price": 150,
+            "image": "Chocolate Bonbons"
+          }
+        ],
+        "subtotal": 150
+      }
+    },
+    {
+      "id": "3BGJZUS",
+      "date": "2023-10-22T07:29:30.702Z",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "name",
+        "address": "addrss",
+        "city": "ktkt",
+        "state": "tkktk",
+        "pincode": "",
+        "phoneNumber": ""
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "3",
+            "name": "Butter cookies",
+            "quantity": 1,
+            "price": 550,
+            "image": "Butter Cookies"
+          }
+        ],
+        "subtotal": 550
+      }
+    },
+    {
+      "id": "VUZ7NNU",
+      "date": "2023-10-22T07:32:27.943Z",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "now",
+        "address": "Nandu addressu",
+        "city": "Bangalore",
+        "state": "karnatak",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "8",
+            "name": "Chocolate Cupcake",
+            "quantity": 1,
+            "price": 50,
+            "image": "Chocolate Cupcake"
+          }
+        ],
+        "subtotal": 50
+      }
+    },
+    {
+      "id": "MVD9DXQ",
+      "date": "2023-10-22T07:34:57.316Z",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "Nandu addressu",
+        "city": "Bangalore",
+        "state": "karnatak",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "6",
+            "name": "Chocolate Bonbons",
+            "quantity": 1,
+            "price": 150,
+            "image": "Chocolate Bonbons"
+          }
+        ],
+        "subtotal": 150
+      }
+    },
+    {
+      "id": "EI7F50J",
+      "date": "2023-10-22T07:43:57.445Z",
+      "email": "nani050899@gmail.com",
+      "shippingDetails": {
+        "fullName": "test",
+        "address": "Nandu addressu",
+        "city": "Bangalore",
+        "state": "karnataka",
+        "pincode": "560000",
+        "phoneNumber": "09876543210"
+      },
+      "cart": {
+        "id": "nani050899@gmail.com",
+        "items": [
+          {
+            "id": "3",
+            "name": "Butter cookies",
+            "quantity": 1,
+            "price": 550,
+            "image": "Butter Cookies"
+          }
+        ],
+        "subtotal": 550
+      }
+    }
+  ],
+  "carts": [
+    {
+      "id": "test@gg.cc",
+      "items": [
+        {
+          "id": 1,
+          "name": "Berries Summer Cupcakes",
+          "quantity": 1,
+          "price": 100
+        }
+      ],
+      "subtotal": 100
+    },
+    {
+      "id": "nani050899@gmail.com",
+      "items": [],
+      "subtotal": 0
+    },
+    {
+      "id": "shilpasreek11@gmail.com",
+      "items": [],
+      "subtotal": 0
+    },
+    {
+      "id": "default",
+      "items": [],
+      "subtotal": 0
+    },
+    {
+      "id": "testfinal@gmail.com",
+      "items": [
+        {
+          "id": "3",
+          "name": "Butter cookies",
+          "quantity": 1,
+          "price": 550,
+          "image": "Butter Cookies"
+        }
+      ],
+      "subtotal": 550
+    },
+    {
+      "id": "finaltest@gmail.com",
+      "items": [],
+      "subtotal": 0
+    }
+  ],
+  "users": [
+    {
+      "firstName": "shilpa",
+      "lastName": "kananjar",
+      "id": "nani050899@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "firstName": "shilpa",
+      "lastName": "sree",
+      "id": "shilpasreek11@gmail.com",
+      "password": "111222333",
+      "role": "user"
+    },
+    {
+      "firstName": "admin",
+      "lastName": "user",
+      "id": "admin@gmail.com",
+      "password": "admin@2023",
+      "role": "admin"
+    },
+    {
+      "firstName": "test",
+      "lastName": "final",
+      "id": "testfinal@gmail.com",
+      "password": "test123",
+      "role": "user"
+    },
+    {
+      "firstName": "final",
+      "lastName": "test",
+      "id": "finaltest@gmail.com",
+      "password": "123456",
+      "role": "user"
+    },
+    {
+      "firstName": "monal",
+      "lastName": "test",
+      "id": "monal@gmail.com",
+      "password": "Monal@123",
+      "role": "user"
+    }
+  ],
+  "loginStatus": [
+    {
+      "isLoggedIn": false,
+      "id": "default",
+      "role": "user"
+    },
+    {
+      "isLoggedIn": true,
+      "id": "nani050899@gmail.com",
+      "role": "user"
+    },
+    {
+      "isLoggedIn": false,
+      "id": "Yro6nkt",
+      "role": "user"
+    },
+    {
+      "isLoggedIn": true,
+      "id": "tdvsdf@gmail.com",
+      "role": "user"
+    },
+    {
+      "isLoggedIn": false,
+      "id": "Qrje97_",
+      "role": "user"
+    },
+    {
+      "isLoggedIn": false,
+      "id": "admin@gmail.com",
+      "role": "admin"
+    },
+    {
+      "isLoggedIn": false,
+      "id": "testfinal@gmail.com",
+      "role": "user"
+    },
+    {
+      "isLoggedIn": false,
+      "id": "finaltest@gmail.com",
+      "role": "user"
+    }
+  ]
+}

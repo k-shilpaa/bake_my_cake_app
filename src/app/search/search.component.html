@@ -1,0 +1,9 @@
+<div class="search">
+    <mat-form-field class="search-width">
+      <mat-label>Search Your favourites</mat-label>
+      <input type="text" [(ngModel)]="searchText" matInput (keyup)="search()" placeholder="Search by item name" />
+    </mat-form-field>
+    <button mat-mini-fab (click)="search()" color="gray">
+      <mat-icon>search</mat-icon>
+    </button>
+  </div>

@@ -1,0 +1,78 @@
+/* Add this CSS code to your styles.css (or styles.scss) file */
+app-nav-bar{
+    height: 50px;
+}
+.background{
+    
+    background-image: url("/assets/images/back-1.png");
+    background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+form {
+    width: 300px;
+    position: fixed;
+    top: 115px;
+    left: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(236, 236, 236);
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+mat-form-field{
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 6px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #4caf50;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

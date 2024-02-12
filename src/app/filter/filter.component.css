@@ -1,0 +1,30 @@
+.example-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .mat-checkbox {
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mat-checkbox:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .mat-checkbox-checked {
+    background-color: #4caf50;
+    color: white;
+    border-color: #4caf50;
+  }
+  
+  .mat-checkbox-checked:hover {
+    background-color: #3e8e41;
+    border-color: #3e8e41;
+  }
+  

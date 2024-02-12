@@ -1,0 +1,41 @@
+<app-nav-bar></app-nav-bar>
+<div class="shipping-page">
+  <div *ngIf="order" class="cart-container">
+    <h1>Order Ref: {{ order.id }}</h1>
+
+    <div class="shipping-details">
+      <h2>Shipping Details</h2>
+      <p>Order date: {{order.date | date: 'yyyy-MM-dd'}}</p>
+      <p>Full Name: {{ order.shippingDetails.fullName }}</p>
+      <p>Address: {{ order.shippingDetails.address }}</p>
+      <p>City: {{ order.shippingDetails.city }}</p>
+      <p>State: {{ order.shippingDetails.state }}</p>
+      <p>Pincode: {{ order.shippingDetails.pincode }}</p>
+      <p>Phone No: {{ order.shippingDetails.phoneNumber }}</p>
+    </div>
+
+    <div class="cart-items">
+      <h2>Items</h2>
+      <mat-card *ngFor="let item of order.cart.items" class="cart-item">
+        <div class="cart-item-details">
+          <img
+            mat-card-image
+            id="picture"
+            src="../../assets/images/{{ item.image }}.jpg"
+          /><br />
+          <div class="cart-data">
+            <strong>Product Name:</strong>{{ item.name }} <br />
+            <strong>Quantity:</strong> {{ item.quantity }} <br />
+            <strong>Price:</strong> {{ item.price }} <br />
+          </div>
+        </div>
+        <hr />
+      </mat-card>
+    </div>
+
+    <div class="cart-total">
+      <strong>Total: {{ order.cart.subtotal }}</strong>
+    </div>
+    
+  </div>
+</div>
