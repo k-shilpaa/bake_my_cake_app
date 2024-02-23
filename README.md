@@ -5,6 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## JSON Server
+In addition to the Angular development server, this project utilizes JSON Server for data-related tasks. Before running the Angular dev server, you need to start the JSON Server to serve your JSON data. To do so, navigate to the directory containing your JSON data file (e.g., db.json) and run: `json-server --watch db.json`
 
 ## Code scaffolding
 
